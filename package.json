@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "build": "tailwindcss build  -i src/input.css -o output.css ",
+    "watch": "tailwindcss -i src/input.css -ooutput.css --watch"
+
+   },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
